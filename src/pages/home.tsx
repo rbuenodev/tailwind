@@ -15,6 +15,12 @@ const Home: React.FC = () => {
       >
         Login
       </a>
+      <a
+        href="/hotel"
+        className="bg-blue-600 rounded px-4 py-2 hover:bg-blue-800 shadow text-white font-bold text-2xl"
+      >
+        Hotel
+      </a>
     </div>
   );
 };
